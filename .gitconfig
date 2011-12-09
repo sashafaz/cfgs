@@ -1,13 +1,18 @@
 [user]
-	name = Mikhail Troshev
-	email = mishanga@yandex-team.ru
+    name = Mikhail Troshev
+    email = mishanga@yandex-team.ru
 [alias]
-	co = checkout
-	st = status
-	di = diff
-	ci = commit
+    co = checkout
+    st = status
+    di = diff
+    br = branch
+    ci = commit
+    g = log --graph --decorate --pretty=oneline --abbrev-commit --branches=* --all
+    lg = log -p
+    lol = log --graph --decorate --pretty=oneline --abbrev-commit
 [color]
-	branch = auto
-	diff = auto
-	interactive = auto
-	status = auto
+    ui = auto
+    branch = auto
+    diff = auto
+    interactive = auto
+    status = auto
