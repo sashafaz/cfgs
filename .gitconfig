@@ -16,3 +16,5 @@
     diff = auto
     interactive = auto
     status = auto
+[core]
+    whitespace=fix,-indent-with-non-tab,trailing-space,space-before-tab
