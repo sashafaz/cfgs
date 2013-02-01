@@ -33,6 +33,8 @@ alias gl='git lol'
 alias gp='git push origin'
 alias gt='git tag'
 
+source ~/cfgs/git-completion.bash
+
 alias sd='svn di | colordiff'
 alias st='svn st'
 
