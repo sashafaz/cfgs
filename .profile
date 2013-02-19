@@ -30,8 +30,9 @@ alias gds='git di --staged'
 alias gm='git merge --no-ff'
 alias gs='git st'
 alias gl='git lol'
-alias gp='git push origin'
+alias gp='git pull --rebase'
 alias gt='git tag'
+alias gr='git remote -v'
 
 source ~/cfgs/git-completion.bash
 
