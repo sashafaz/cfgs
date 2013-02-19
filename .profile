@@ -33,6 +33,7 @@ alias gl='git lol'
 alias gp='git pull --rebase'
 alias gt='git tag'
 alias gr='git remote -v'
+alias gh='git hist'
 
 source ~/cfgs/git-completion.bash
 

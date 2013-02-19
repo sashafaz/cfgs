@@ -7,9 +7,8 @@
     di = diff
     br = branch
     ci = commit
-    g = log --graph --decorate --pretty=oneline --abbrev-commit --branches=* --all
-    lg = log -p
     lol = log --graph --decorate --pretty=oneline --abbrev-commit
+    hist = log --pretty=format:'%C(yellow)%h%C(reset) %ad | %C(75)%s%C(reset) %C(yellow)%d%C(reset) [%an]' --graph --date=short --branches --all
 [color]
     ui = auto
     branch = auto
