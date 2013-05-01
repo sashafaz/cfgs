@@ -68,7 +68,7 @@ set pastetoggle=<leader>v
 
 
 "Solarized
-"set t_Co=16
+set t_Co=16
 "if has("gui_running")
     "set t_Co=256
     "let g:solarized_termcolors=256
