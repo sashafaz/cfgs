@@ -1,9 +1,12 @@
+export NODE_PATH=
 export PATH=$HOME/bin:/opt/local/bin:/opt/local/sbin:$PATH
 
 export LANG=ru_RU.UTF-8
 export BLOCKSIZE=K
 export EDITOR=vim
 export PAGER=less
+
+alias zorg='xargs'
 
 alias h='fc -l'
 alias j='jobs'
@@ -34,6 +37,7 @@ alias gp='git pull --rebase'
 alias gt='git tag'
 alias gr='git remote -v'
 alias gh='git hist'
+alias gc='git clone'
 
 source ~/cfgs/git-completion.bash
 
