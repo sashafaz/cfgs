@@ -4,7 +4,7 @@
 [alias]
     co = checkout
     st = status
-    di = diff
+    di = diff --no-prefix
     br = branch
     ci = commit
     lol = log --graph --decorate --pretty=oneline --abbrev-commit
