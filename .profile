@@ -16,7 +16,7 @@ alias m=$PAGER
 alias la='ls -la'
 alias g='egrep -i'
 
-alias vim='vim -o'
+alias vim='vim -O'
 
 if [[ `which gmake` != '' ]]; then
 alias make='gmake'
