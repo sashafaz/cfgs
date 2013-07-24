@@ -26,16 +26,18 @@ endif
 
 set backspace=indent,eol,start
 
-set enc=utf-8
+set encoding=utf-8
+set fileencoding=utf-8
 
 set nobackup
 
 set wildmenu
 
 set title
+set number
 set ruler
-set showcmd
 set rulerformat=%30(%=\:b%n%y%m%r%w\ %l,%c%V\ %P%)
+set showcmd
 
 set scrolljump=5
 set scrolloff=3
@@ -59,6 +61,7 @@ set expandtab
 set shiftwidth=4
 set tabstop=4
 set softtabstop=4
+set fileformat=unix
 
 vnoremap < <gv
 vnoremap > >gv
@@ -97,4 +100,5 @@ let NERDTreeKeepTreeInNewTab=1
 command W w
 command WQ wq
 command Wq wq
+command Wqa wqa
 command Q q
