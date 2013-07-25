@@ -38,6 +38,8 @@ alias gt='git tag'
 alias gr='git remote -v'
 alias gh='git hist'
 alias gc='git clone'
+alias gmod="git status --porcelain | awk '{print \$2}'"
+alias gmods="git status --porcelain | grep [MADRCU] | awk '{print \$2}'"
 
 source ~/cfgs/git-completion.bash
 
