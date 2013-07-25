@@ -72,16 +72,22 @@ set pastetoggle=<leader>v
 
 "Solarized
 set t_Co=16
-if has("gui_running")
-    set t_Co=256
-    let g:solarized_termcolors=256
-endif
+"if has("gui_running")
+    "set t_Co=256
+    "let g:solarized_termcolors=256
+"endif
 
 syntax enable
-set background=dark
-colorscheme solarized
+"set background=dark
+"colorscheme solarized
 
-call togglebg#map("<leader>b")
+"call togglebg#map("<leader>b")
+
+let g:lucius_style='light'
+let g:lucius_contrast='high'
+let g:lucius_contrast_bg='high'
+colorscheme lucius
+
 
 "FuzzyFinder
 nnoremap <silent> ffb :FufBuffer<CR>
