@@ -43,8 +43,9 @@ alias gmods="git status --porcelain | grep [MADRCU] | awk '{print \$2}'"
 
 source ~/cfgs/git-completion.bash
 
-alias sd='svn di | colordiff'
+alias sd='svn di | colordiff | less -R'
 alias st='svn st'
+alias sl='svn log | less'
 
 # Misspells
 alias lg='gl'
