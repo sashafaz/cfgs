@@ -6,6 +6,8 @@ export BLOCKSIZE=K
 export EDITOR=vim
 export PAGER=less
 
+export HISTSIZE=5000
+
 alias zorg='xargs'
 
 alias h='fc -l'
