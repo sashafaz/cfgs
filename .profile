@@ -42,6 +42,8 @@ alias gh='git hist'
 alias gc='git clone'
 alias gmod="git status --porcelain | awk '{print \$2}'"
 alias gmods="git status --porcelain | grep [MADRCU] | awk '{print \$2}'"
+alias gvim="vim \`gmod\`"
+alias gvims="vim \`gmods\`"
 
 source ~/cfgs/git-completion.bash
 
