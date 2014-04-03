@@ -1,5 +1,5 @@
 export NODE_PATH=
-export PATH=$HOME/bin:/opt/local/bin:/opt/local/sbin:$PATH
+export PATH=./node_modules/.bin:$HOME/bin:/opt/local/bin:/opt/local/sbin:$PATH
 
 export LANG=ru_RU.UTF-8
 export BLOCKSIZE=K
