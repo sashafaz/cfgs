@@ -25,3 +25,5 @@
     log = true
 [diff]
     noprefix = true
+[help]
+    autocorrect = 1
