@@ -24,6 +24,7 @@ if [[ `which gmake` != '' ]]; then
 alias make='gmake'
 else
 alias gmake='make'
+alias ack='ack-grep'
 fi
 
 alias ga='git add'
