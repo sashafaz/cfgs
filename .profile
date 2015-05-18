@@ -1,3 +1,6 @@
+export DEBFULLNAME="Mikhail Troshev"
+export DEBEMAIL="Mikhail Troshev <mishanga@yandex-team.ru>"
+
 export NODE_PATH=
 export PATH=./node_modules/.bin:$HOME/bin:/opt/local/bin:/opt/local/sbin:$PATH
 
@@ -7,6 +10,8 @@ export EDITOR=vim
 export PAGER=less
 
 export HISTSIZE=5000
+
+alias dch="dch --distributor debian --distribution stable"
 
 alias zorg='xargs'
 
@@ -20,11 +25,14 @@ alias g='egrep -i'
 
 alias vim='vim -O'
 
+if [[ `which ack-grep` != '' ]]; then
+alias ack='ack-grep'
+fi
+
 if [[ `which gmake` != '' ]]; then
 alias make='gmake'
 else
 alias gmake='make'
-alias ack='ack-grep'
 fi
 
 alias ga='git add'
@@ -79,3 +87,7 @@ _expand()
 {
     return 0;
 }
+
+export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
+
+[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
