@@ -1,5 +1,5 @@
-export DEBFULLNAME="Mikhail Troshev"
-export DEBEMAIL="Mikhail Troshev <mishanga@yandex-team.ru>"
+export DEBFULLNAME="Sasha Fazlieva"
+export DEBEMAIL="Sasha Fazlieva <britishrum@gmail.com>"
 
 export NODE_PATH=
 export PATH=./node_modules/.bin:$HOME/bin:/opt/local/bin:/opt/local/sbin:$PATH
